@@ -1,0 +1,280 @@
+{
+  "users": [
+    {
+      "userId": "a1e2",
+      "name": "Leanne",
+      "surname": "Graham",
+      "password": "Bret2012",
+      "email": "Sincere@april.biz",
+      "id": "4919"
+    },
+    {
+      "userId": "b2f3",
+      "name": "John",
+      "surname": "Doe",
+      "password": "John2023",
+      "email": "john.doe@example.com",
+      "id": "4d9e"
+    },
+    {
+      "userId": "c3g4",
+      "name": "Jane",
+      "surname": "Smith",
+      "password": "Jane1985",
+      "email": "jane.smith@example.com",
+      "id": "8321"
+    }
+  ],
+  "wallets": [
+    {
+      "walletId": "a1e2",
+      "wallettype": "Visa",
+      "money": "126.000.000",
+      "currency": "RUB",
+      "id": "7e7f"
+    },
+    {
+      "walletId": "a1e2",
+      "wallettype": "MasterCard",
+      "money": "50.000.000",
+      "currency": "RUB",
+      "id": "6f37"
+    },
+    {
+      "walletId": "a1e2",
+      "wallettype": "American Express",
+      "money": "30.000.000",
+      "currency": "RUB",
+      "id": "401d"
+    },
+    {
+      "walletId": "a1e2",
+      "wallettype": "Discover",
+      "money": "10.000.000",
+      "currency": "RUB",
+      "id": "038f"
+    },
+    {
+      "walletId": "b2f3",
+      "wallettype": "Visa",
+      "money": "200.000.000",
+      "currency": "RUB",
+      "id": "991f"
+    },
+    {
+      "walletId": "b2f3",
+      "wallettype": "MasterCard",
+      "money": "75.000.000",
+      "currency": "RUB",
+      "id": "2c3a"
+    },
+    {
+      "walletId": "b2f3",
+      "wallettype": "American Express",
+      "money": "40.000.000",
+      "currency": "RUB",
+      "id": "1a0d"
+    },
+    {
+      "walletId": "b2f3",
+      "wallettype": "Discover",
+      "money": "20.000.000",
+      "currency": "RUB",
+      "id": "7a2f"
+    },
+    {
+      "walletId": "c3g4",
+      "wallettype": "Visa",
+      "money": "300.000.000",
+      "currency": "RUB",
+      "id": "e711"
+    },
+    {
+      "walletId": "c3g4",
+      "wallettype": "MasterCard",
+      "money": "100.000.000",
+      "currency": "RUB",
+      "id": "5b44"
+    },
+    {
+      "walletId": "c3g4",
+      "wallettype": "American Express",
+      "money": "50.000.000",
+      "currency": "RUB",
+      "id": "9584"
+    },
+    {
+      "walletId": "c3g4",
+      "wallettype": "Discover",
+      "money": "25.000.000",
+      "currency": "RUB",
+      "id": "d06d"
+    },
+    {
+      "walletId": "a1e2",
+      "wallettype": "UnionPay",
+      "money": "220.000.000",
+      "currency": "RUB",
+      "id": "64ca"
+    },
+    {
+      "walletId": "a1e2",
+      "wallettype": "HUMO",
+      "money": "230.000.000",
+      "currency": "RUB",
+      "id": "8c26"
+    },
+    {
+      "walletId": "b2f3",
+      "wallettype": "UnionPay",
+      "money": "240.000.000",
+      "currency": "RUB",
+      "id": "5761"
+    },
+    {
+      "walletId": "b2f3",
+      "wallettype": "Maestro",
+      "money": "250.000.000",
+      "currency": "RUB",
+      "id": "5f16"
+    },
+    {
+      "walletId": "c3g4",
+      "wallettype": "Maestro",
+      "money": "260.000.000",
+      "currency": "RUB",
+      "id": "2b6a"
+    },
+    {
+      "walletId": "c3g4",
+      "wallettype": "UnionPay",
+      "money": "270.000.000",
+      "currency": "RUB",
+      "id": "a0ce"
+    },
+    {
+      "walletId": "c3g4",
+      "wallettype": "HUMO",
+      "money": "280.000.000",
+      "currency": "RUB",
+      "id": "540e"
+    },
+    {
+      "walletId": "a1e2",
+      "wallettype": "Maestro",
+      "money": "290.000.000",
+      "currency": "RUB",
+      "id": "aa3b"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "a1e2",
+      "transacID": "1232312",
+      "wallet": "Visa",
+      "walletnumber": "4563",
+      "category": "Коммунальные услуги",
+      "sum": "555.000",
+      "date": "2024-08-10"
+    },
+    {
+      "id": "a1e2",
+      "transacID": "1232313",
+      "wallet": "Visa",
+      "walletnumber": "4563",
+      "category": "Продукты",
+      "sum": "123.000",
+      "date": "2024-08-13"
+    },
+    {
+      "id": "a1e2",
+      "transacID": "1232314",
+      "wallet": "Visa",
+      "walletnumber": "4563",
+      "category": "Товары для дома",
+      "sum": "200.000",
+      "date": "2024-08-12"
+    },
+    {
+      "id": "a1e2",
+      "transacID": "1232315",
+      "wallet": "Visa",
+      "walletnumber": "4563",
+      "category": "Рестораны",
+      "sum": "800.000",
+      "date": "2024-08-13"
+    },
+    {
+      "id": "b2f3",
+      "transacID": "2234312",
+      "wallet": "MasterCard",
+      "walletnumber": "5678",
+      "category": "Коммунальные услуги",
+      "sum": "600.000",
+      "date": "2024-08-10"
+    },
+    {
+      "id": "b2f3",
+      "transacID": "2234313",
+      "wallet": "MasterCard",
+      "walletnumber": "5678",
+      "category": "Продукты",
+      "sum": "140.000",
+      "date": "2024-08-11"
+    },
+    {
+      "id": "b2f3",
+      "transacID": "2234314",
+      "wallet": "MasterCard",
+      "walletnumber": "5678",
+      "category": "Товары для дома",
+      "sum": "250.000",
+      "date": "2024-08-12"
+    },
+    {
+      "id": "b2f3",
+      "transacID": "2234315",
+      "wallet": "MasterCard",
+      "walletnumber": "5678",
+      "category": "Рестораны",
+      "sum": "900.000",
+      "date": "2024-08-13"
+    },
+    {
+      "id": "c3g4",
+      "transacID": "3236312",
+      "wallet": "American Express",
+      "walletnumber": "6789",
+      "category": "Коммунальные услуги",
+      "sum": "650.000",
+      "date": "2024-08-10"
+    },
+    {
+      "id": "c3g4",
+      "transacID": "3236313",
+      "wallet": "American Express",
+      "walletnumber": "6789",
+      "category": "Продукты",
+      "sum": "160.000",
+      "date": "2024-08-11"
+    },
+    {
+      "id": "c3g4",
+      "transacID": "3236314",
+      "wallet": "American Express",
+      "walletnumber": "6789",
+      "category": "Товары для дома",
+      "sum": "300.000",
+      "date": "2024-08-12"
+    },
+    {
+      "id": "c3g4",
+      "transacID": "3236315",
+      "wallet": "American Express",
+      "walletnumber": "6789",
+      "category": "Рестораны",
+      "sum": "1.000.000",
+      "date": "2024-08-13"
+    }
+  ]
+}

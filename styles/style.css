@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    height: 70px;
+    background: #F0F0F0;
+}
+
+.head_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 21px;
+}
+
+.left p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.right {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+.right p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #000000;
+    cursor: pointer;
+}
+
+.right svg:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.right svg:active {
+    scale: 0.95;
+    cursor: pointer;
+}
+
+.main_title {
+    margin-top: 45px;
+    margin-bottom: 10px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+}
+
+.main_mail {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0047FF;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 75px;
+}
+
+.wallet_title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.wallets_box {
+    display: grid;
+    grid-template-columns: repeat(4, 282px);
+    justify-content: center;
+    gap: 24px 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+
+.wallet {
+    width: 282px;
+    height: 160px;
+    border-radius: 15px;
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wallet p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.wallet p:nth-child(3) {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.wallet:nth-child(4n+1) {
+    background: linear-gradient(84.37deg, #D7816A 2.27%, #BD4F6C 92.26%);
+}
+
+.wallet:nth-child(4n+2) {
+    background: linear-gradient(84.37deg, #5F0A87 2.27%, #A4508B 92.26%);
+}
+
+.wallet:nth-child(4n+3) {
+    background: linear-gradient(84.37deg, #20BF55 2.27%, #01BAEF 92.26%);
+}
+
+.wallet:nth-child(4n+4) {
+    background: linear-gradient(84.37deg, #380036 2.27%, #0CBABA 92.26%);
+}
+
+#show_more {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #0047FF;
+    cursor: pointer;
+    margin-bottom: 75px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+}
+
+tr {
+    width: 234px;
+    
+}
+
+th {
+    text-align: start;
+    vertical-align: top;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: #949494;
+    border-bottom: 1px solid #979797;
+}
+
+th:nth-child(1) {
+    width: 170px;
+}
+
+th:nth-child(2) {
+    width: 390px;
+}
+
+th:nth-child(3) {
+    width: 240px;
+}
+
+th:nth-child(4) {
+    width: 300px;
+}
+
+th:nth-child(5) {
+    width: 100px;
+}
+
+td {
+    color: #000000;
+    text-align: start;
+    vertical-align: top;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    border-bottom: 1px solid #979797;
+}
+
+.add_wallet {
+    width: 380px;
+    height: 56px;
+    background: #0047FF;
+    border-radius: 10px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: #0047FF;
+    margin-bottom: 100px;
+}
+
+button:hover {
+    scale: 1.05;
+}
+
+button:active {
+    scale: 0.95;
+}

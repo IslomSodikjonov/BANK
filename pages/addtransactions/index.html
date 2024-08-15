@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="../../styles/sign.css">
+</head>
+<body>
+    <div class="center">
+        <div class="sign_transac_box">
+            <form>
+                <h1 class="form_title">Добавить транзакцию</h1>
+                <div class="inputs">
+                    <input type="number" name="transacID" placeholder="Номер транзакции" class="input">
+                    <select name="wallet" class="wallets">
+                        <option value="" disabled selected>Из кошелька</option>
+                    </select>
+                    <input type="text" name="category" placeholder="Категория" class="input">
+                    <input type="number" name="sum" placeholder="Сумма" class="input">
+                    <input type="date" name="date" placeholder="Дата">
+                </div>
+                <button class="submit_btn">Добавить</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./script.js" type="module"></script>
+</body>
+</html>
